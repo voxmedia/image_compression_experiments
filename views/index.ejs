@@ -1,0 +1,126 @@
+<html>
+<head>
+  <link href='/styles.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body class="small">
+
+<script type='text/javascript'>
+  $(function(){
+    console.log("loaded");
+
+    $('.toggle.width').on('click', function(){
+      $('body').toggleClass('small');
+    })
+  });
+</script>
+
+
+<div class="nav">
+  <b>Source vs Webp vs J2K vs mozjpeg vs pngquant</b><span class="tip" title="Hover over any non-source image (webp/j2k/etc) to see the visual diff. Images with a very low Visual Diff probably won't appear to change source images, but they are, I promise.">?</span>
+  <span class="toggle width">toggle full width images</span>
+  <a class="toggle" href="/">overview</a>
+  <a class="toggle" href="/sample">sample</a>
+  <a class="toggle" href="/worst_diff">worst diff</a>
+  <a class="toggle" href="/best_diff">best diff</a>
+  <a class="toggle" href="/worst_bytes">worst bytes</a>
+  <a class="toggle" href="/best_bytes">best bytes</a>
+</div>
+
+
+<ul>
+
+  <li>
+    <span>
+      <h1>SUMMARY - Real World</h1>
+      mozjpeg from png sources excluded, due to alpha<br/>
+      pngquant from jpg sources excluded, because we will never convert a jpg to a png<br/><br/>
+
+      <b>Percentage of images that contain real alpha:</b> <%= (summaryReal.alpha).toFixed(2) %> %<br/><br/>
+
+
+      <table>
+        <tr><th colspan="2">Avg bytes saved</th></tr>
+        <% for( var i = 0; i < summaryReal.bytes.avg.length; i++ ) { %>
+          <tr>
+            <th><%= summaryReal.bytes.avg[i].format %></th>
+            <td><%= (summaryReal.bytes.avg[i].percent).toFixed(2) %> %</td>
+          </tr>
+        <% } %>
+      </table>
+
+      <table>
+        <tr><th colspan="2">Avg visual diff (smaller is better)</th></tr>
+        <% for( var i = 0; i < summaryReal.diff.avg.length; i++ ) { %>
+          <tr>
+            <th><%= summaryReal.diff.avg[i].format %></th>
+            <td><%= (summaryReal.diff.avg[i].percent).toFixed(2) %> %</td>
+          </tr>
+        <% } %>
+      </table>
+    </span>
+
+    <span>
+      <h1>SUMMARY - Dumb</h1>
+      "dumb" data set<br/> ignores and assumes nothing<br/><br/>
+
+      <b>Percentage of images that contain real alpha:</b> <%= (summary.alpha).toFixed(2) %> %<br/><br/>
+
+      <table>
+        <tr><th colspan="2">Avg bytes saved</th></tr>
+        <% for( var i = 0; i < summary.bytes.avg.length; i++ ) { %>
+          <tr>
+            <th><%= summary.bytes.avg[i].format %></th>
+            <td><%= (summary.bytes.avg[i].percent).toFixed(2) %> %</td>
+          </tr>
+        <% } %>
+      </table>
+
+      <table>
+        <tr><th colspan="2">Avg visual diff (smaller is better)</th></tr>
+        <% for( var i = 0; i < summary.diff.avg.length; i++ ) { %>
+          <tr>
+            <th><%= summary.diff.avg[i].format %></th>
+            <td><%= (summary.diff.avg[i].percent).toFixed(2) %> %</td>
+          </tr>
+        <% } %>
+      </table>
+    </span>
+
+  </li>
+
+  <% for(var k = 0; k < results.length; k++ ) { %>
+    <li>
+
+      <span>
+        <b>Source: <%= results[k].src.type %> </b><br/>
+        <img class="source small" src='<%= results[k].intermediaries.png.path.split('\/public')[1] %>'><br/>
+        <b>Size:</b> <%=
+          Math.floor(results[k].src.bytes / 1024)
+        %>kb
+      </span>
+    </li>
+    <li>
+
+      <% for(var j in results[k].optimized) { %>
+
+        <span>
+          <b><%= j %></b><br/>
+          <img class="has-diff small" src='<%= results[k].optimized[j].pngPath.split('\/public')[1] %>'>
+          <img class="diff small" src='<%= results[k].optimized[j].diffPath.split('\/public')[1] %>'>
+          <br/>
+          <b>Bytes:</b> <%=
+            size = Math.floor(results[k].optimized[j].bytes / 1024);
+          %>kb<br/>
+          <b>Bytes Saved:</b> <%= results[k].optimized[j].bytesSavedPercent %><br/>
+          <b>Visual Diff:</b> <%= results[k].optimized[j].diffPercent %>
+        </span>
+
+      <% } %>
+
+    </li>
+  <% } %>
+</ul>
+
+</body>

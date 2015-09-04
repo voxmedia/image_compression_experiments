@@ -1,0 +1,130 @@
+  * {
+    font-family: sans-serif;
+    line-height: 1.4em;
+    box-sizing: inherit;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  b {
+    font-weight: 700;
+  }
+
+  body {
+    background-color: black;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+  }
+
+  span {
+    margin: 10px;
+  }
+
+  img {
+    display: block;
+    border: solid 2px transparent;
+  }
+
+  img.diff {
+    display: none;
+  }
+
+  span:hover img.has-diff {
+    display: none;
+  }
+
+  span:hover img.diff {
+    display: block;
+    border: solid 2px #6D6D6D;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+  }
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(229, 228, 228, 0.2);
+    margin-bottom: 10px;
+  }
+
+  .nav {
+    position: fixed;
+    display: flex;
+    align-items: center;
+
+
+    height: 25px;
+    background-color: black;
+    width: 100%;
+    padding: 1em;
+  }
+
+  p {
+    padding: 10px;
+  }
+
+  .tip,
+  .toggle {
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255, 0.3);
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a.toggle {
+    color:  #ccc;
+    text-decoration: none;
+    margin-right: 1em;
+  }
+
+  .toggle {
+    width: auto;
+    padding: 0 1em;
+  }
+
+  .toggle:hover {
+    cursor: pointer;
+  }
+
+  .toggle.on {
+    background-color: orange;
+  }
+
+  table {
+    margin: 0 3em 1em 0;
+    display: inline;
+  }
+
+  th {
+    text-align: left;
+    background: rgba(255,255,255, 0.1);
+  }
+
+  th, td {
+    padding: 0.5em;
+  }
+
+
+
+  .small .source {
+    max-height: 50px;
+    width: auto;
+  }
+
+  .small .has-diff,
+  .small .diff {
+    max-height: 200px;
+    width: auto;
+  }
+
+
+
+
