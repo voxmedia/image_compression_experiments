@@ -83,9 +83,9 @@ That said, you could mogrify all source images before running `index.js` with so
 Notes
 ============================
 j2k quality (anecdotal)
-  45: starts to loose sharpness in vector like bitmaps, but still has negative compression savings
-  37: insanve artifacts in a few images, terrible
-  41: very nearly goldilocks zone
+- 45: starts to loose sharpness in vector like bitmaps, but still has negative compression savings
+- 37: insanve artifacts in a few images, terrible
+- 41: goldilocks zone
 
 
 Authors
