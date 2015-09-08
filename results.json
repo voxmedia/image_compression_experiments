@@ -1,0 +1,1124 @@
+{
+    "Screenshot_Combat_02.0.png": {
+        "src": {
+            "path": "./public/source_images/Screenshot_Combat_02.0.png",
+            "type": "png",
+            "transparent": "0",
+            "bytes": 808989
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/Screenshot_Combat_02.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/Screenshot_Combat_02.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/Screenshot_Combat_02.0.j2k",
+                "pngPath": "./public/optimized/j2k/Screenshot_Combat_02.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/Screenshot_Combat_02.0_diff_.png",
+                "diffPercent": "0.27%",
+                "bytes": 140905,
+                "bytesSavedPercent": "82.58%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/Screenshot_Combat_02.0.webp",
+                "pngPath": "./public/optimized/webp/Screenshot_Combat_02.0_webp_.png",
+                "diffPath": "./public/optimized/webp/Screenshot_Combat_02.0_diff_.png",
+                "diffPercent": "0.52%",
+                "bytes": 63000,
+                "bytesSavedPercent": "92.21%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/Screenshot_Combat_02.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/Screenshot_Combat_02.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/Screenshot_Combat_02.0-moz_diff_.png",
+                "diffPercent": "0.38%",
+                "bytes": 79641,
+                "bytesSavedPercent": "90.16%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/Screenshot_Combat_02.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/Screenshot_Combat_02.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/Screenshot_Combat_02.0-quant_diff_.png",
+                "diffPercent": "1.24%",
+                "bytes": 171648,
+                "bytesSavedPercent": "78.78%"
+            }
+        }
+    },
+    "bc_portrait_garrison_final_copy.0_1024.0.png": {
+        "src": {
+            "path": "./public/source_images/bc_portrait_garrison_final_copy.0_1024.0.png",
+            "type": "png",
+            "transparent": "1",
+            "bytes": 565012
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/bc_portrait_garrison_final_copy.0_1024.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/bc_portrait_garrison_final_copy.0_1024.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/bc_portrait_garrison_final_copy.0_1024.0.j2k",
+                "pngPath": "./public/optimized/j2k/bc_portrait_garrison_final_copy.0_1024.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/bc_portrait_garrison_final_copy.0_1024.0_diff_.png",
+                "diffPercent": "0.34%",
+                "bytes": 71687,
+                "bytesSavedPercent": "87.31%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/bc_portrait_garrison_final_copy.0_1024.0.webp",
+                "pngPath": "./public/optimized/webp/bc_portrait_garrison_final_copy.0_1024.0_webp_.png",
+                "diffPath": "./public/optimized/webp/bc_portrait_garrison_final_copy.0_1024.0_diff_.png",
+                "diffPercent": "0.18%",
+                "bytes": 58418,
+                "bytesSavedPercent": "89.66%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/bc_portrait_garrison_final_copy.0_1024.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/bc_portrait_garrison_final_copy.0_1024.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/bc_portrait_garrison_final_copy.0_1024.0-moz_diff_.png",
+                "diffPercent": "48.65%",
+                "bytes": 63743,
+                "bytesSavedPercent": "88.72%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/bc_portrait_garrison_final_copy.0_1024.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/bc_portrait_garrison_final_copy.0_1024.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/bc_portrait_garrison_final_copy.0_1024.0-quant_diff_.png",
+                "diffPercent": "0.42%",
+                "bytes": 89712,
+                "bytesSavedPercent": "84.12%"
+            }
+        }
+    },
+    "bc_portrait_knolan_clean_fix.0_1024.0.png": {
+        "src": {
+            "path": "./public/source_images/bc_portrait_knolan_clean_fix.0_1024.0.png",
+            "type": "png",
+            "transparent": "1",
+            "bytes": 607043
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/bc_portrait_knolan_clean_fix.0_1024.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/bc_portrait_knolan_clean_fix.0_1024.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/bc_portrait_knolan_clean_fix.0_1024.0.j2k",
+                "pngPath": "./public/optimized/j2k/bc_portrait_knolan_clean_fix.0_1024.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/bc_portrait_knolan_clean_fix.0_1024.0_diff_.png",
+                "diffPercent": "0.14%",
+                "bytes": 127244,
+                "bytesSavedPercent": "79.04%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/bc_portrait_knolan_clean_fix.0_1024.0.webp",
+                "pngPath": "./public/optimized/webp/bc_portrait_knolan_clean_fix.0_1024.0_webp_.png",
+                "diffPath": "./public/optimized/webp/bc_portrait_knolan_clean_fix.0_1024.0_diff_.png",
+                "diffPercent": "0.11%",
+                "bytes": 98858,
+                "bytesSavedPercent": "83.71%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/bc_portrait_knolan_clean_fix.0_1024.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/bc_portrait_knolan_clean_fix.0_1024.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/bc_portrait_knolan_clean_fix.0_1024.0-moz_diff_.png",
+                "diffPercent": "70.17%",
+                "bytes": 76917,
+                "bytesSavedPercent": "87.33%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/bc_portrait_knolan_clean_fix.0_1024.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/bc_portrait_knolan_clean_fix.0_1024.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/bc_portrait_knolan_clean_fix.0_1024.0-quant_diff_.png",
+                "diffPercent": "0.24%",
+                "bytes": 106423,
+                "bytesSavedPercent": "82.47%"
+            }
+        }
+    },
+    "BC_Splash_450DPI_FINAL_ForREAL.0.png": {
+        "src": {
+            "path": "./public/source_images/BC_Splash_450DPI_FINAL_ForREAL.0.png",
+            "type": "png",
+            "transparent": "0",
+            "bytes": 873804
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/BC_Splash_450DPI_FINAL_ForREAL.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/BC_Splash_450DPI_FINAL_ForREAL.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/BC_Splash_450DPI_FINAL_ForREAL.0.j2k",
+                "pngPath": "./public/optimized/j2k/BC_Splash_450DPI_FINAL_ForREAL.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/BC_Splash_450DPI_FINAL_ForREAL.0_diff_.png",
+                "diffPercent": "0.42%",
+                "bytes": 142969,
+                "bytesSavedPercent": "83.64%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/BC_Splash_450DPI_FINAL_ForREAL.0.webp",
+                "pngPath": "./public/optimized/webp/BC_Splash_450DPI_FINAL_ForREAL.0_webp_.png",
+                "diffPath": "./public/optimized/webp/BC_Splash_450DPI_FINAL_ForREAL.0_diff_.png",
+                "diffPercent": "0.50%",
+                "bytes": 59002,
+                "bytesSavedPercent": "93.25%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/BC_Splash_450DPI_FINAL_ForREAL.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/BC_Splash_450DPI_FINAL_ForREAL.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/BC_Splash_450DPI_FINAL_ForREAL.0-moz_diff_.png",
+                "diffPercent": "0.42%",
+                "bytes": 75735,
+                "bytesSavedPercent": "91.33%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/BC_Splash_450DPI_FINAL_ForREAL.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/BC_Splash_450DPI_FINAL_ForREAL.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/BC_Splash_450DPI_FINAL_ForREAL.0-quant_diff_.png",
+                "diffPercent": "1.18%",
+                "bytes": 174976,
+                "bytesSavedPercent": "79.98%"
+            }
+        }
+    },
+    "airship_syndicate_034.0.jpg": {
+        "src": {
+            "path": "./public/source_images/airship_syndicate_034.0.jpg",
+            "type": "jpg",
+            "transparent": "0",
+            "bytes": 588038
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/airship_syndicate_034.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/airship_syndicate_034.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/airship_syndicate_034.0.j2k",
+                "pngPath": "./public/optimized/j2k/airship_syndicate_034.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/airship_syndicate_034.0_diff_.png",
+                "diffPercent": "0.94%",
+                "bytes": 93006,
+                "bytesSavedPercent": "84.18%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/airship_syndicate_034.0.webp",
+                "pngPath": "./public/optimized/webp/airship_syndicate_034.0_webp_.png",
+                "diffPath": "./public/optimized/webp/airship_syndicate_034.0_diff_.png",
+                "diffPercent": "1.05%",
+                "bytes": 49144,
+                "bytesSavedPercent": "91.64%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/airship_syndicate_034.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/airship_syndicate_034.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/airship_syndicate_034.0-moz_diff_.png",
+                "diffPercent": "0.94%",
+                "bytes": 67557,
+                "bytesSavedPercent": "88.51%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/airship_syndicate_034.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/airship_syndicate_034.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/airship_syndicate_034.0-quant_diff_.png",
+                "diffPercent": "0.75%",
+                "bytes": 186604,
+                "bytesSavedPercent": "68.27%"
+            }
+        }
+    },
+    "Darksiders_PC.0.jpg": {
+        "src": {
+            "path": "./public/source_images/Darksiders_PC.0.jpg",
+            "type": "jpg",
+            "transparent": "0",
+            "bytes": 62798
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/Darksiders_PC.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/Darksiders_PC.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/Darksiders_PC.0.j2k",
+                "pngPath": "./public/optimized/j2k/Darksiders_PC.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/Darksiders_PC.0_diff_.png",
+                "diffPercent": "0.55%",
+                "bytes": 39480,
+                "bytesSavedPercent": "37.13%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/Darksiders_PC.0.webp",
+                "pngPath": "./public/optimized/webp/Darksiders_PC.0_webp_.png",
+                "diffPath": "./public/optimized/webp/Darksiders_PC.0_diff_.png",
+                "diffPercent": "0.53%",
+                "bytes": 38138,
+                "bytesSavedPercent": "39.27%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/Darksiders_PC.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/Darksiders_PC.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/Darksiders_PC.0-moz_diff_.png",
+                "diffPercent": "0.09%",
+                "bytes": 55676,
+                "bytesSavedPercent": "11.34%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/Darksiders_PC.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/Darksiders_PC.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/Darksiders_PC.0-quant_diff_.png",
+                "diffPercent": "1.45%",
+                "bytes": 127184,
+                "bytesSavedPercent": "-102.53%"
+            }
+        }
+    },
+    "Schermata_2015-08-23_alle_13.49.41.0.jpg": {
+        "src": {
+            "path": "./public/source_images/Schermata_2015-08-23_alle_13.49.41.0.jpg",
+            "type": "jpg",
+            "transparent": "0",
+            "bytes": 732780
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/Schermata_2015-08-23_alle_13.49.41.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/Schermata_2015-08-23_alle_13.49.41.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/Schermata_2015-08-23_alle_13.49.41.0.j2k",
+                "pngPath": "./public/optimized/j2k/Schermata_2015-08-23_alle_13.49.41.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/Schermata_2015-08-23_alle_13.49.41.0_diff_.png",
+                "diffPercent": "0.91%",
+                "bytes": 71698,
+                "bytesSavedPercent": "90.22%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/Schermata_2015-08-23_alle_13.49.41.0.webp",
+                "pngPath": "./public/optimized/webp/Schermata_2015-08-23_alle_13.49.41.0_webp_.png",
+                "diffPath": "./public/optimized/webp/Schermata_2015-08-23_alle_13.49.41.0_diff_.png",
+                "diffPercent": "0.94%",
+                "bytes": 56022,
+                "bytesSavedPercent": "92.35%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/Schermata_2015-08-23_alle_13.49.41.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/Schermata_2015-08-23_alle_13.49.41.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/Schermata_2015-08-23_alle_13.49.41.0-moz_diff_.png",
+                "diffPercent": "0.78%",
+                "bytes": 93000,
+                "bytesSavedPercent": "87.31%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/Schermata_2015-08-23_alle_13.49.41.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/Schermata_2015-08-23_alle_13.49.41.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/Schermata_2015-08-23_alle_13.49.41.0-quant_diff_.png",
+                "diffPercent": "1.04%",
+                "bytes": 189634,
+                "bytesSavedPercent": "74.12%"
+            }
+        }
+    },
+    "Screenshot_Combat_04.0.png": {
+        "src": {
+            "path": "./public/source_images/Screenshot_Combat_04.0.png",
+            "type": "png",
+            "transparent": "0",
+            "bytes": 669133
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/Screenshot_Combat_04.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/Screenshot_Combat_04.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/Screenshot_Combat_04.0.j2k",
+                "pngPath": "./public/optimized/j2k/Screenshot_Combat_04.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/Screenshot_Combat_04.0_diff_.png",
+                "diffPercent": "0.39%",
+                "bytes": 91386,
+                "bytesSavedPercent": "86.34%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/Screenshot_Combat_04.0.webp",
+                "pngPath": "./public/optimized/webp/Screenshot_Combat_04.0_webp_.png",
+                "diffPath": "./public/optimized/webp/Screenshot_Combat_04.0_diff_.png",
+                "diffPercent": "0.47%",
+                "bytes": 51800,
+                "bytesSavedPercent": "92.26%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/Screenshot_Combat_04.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/Screenshot_Combat_04.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/Screenshot_Combat_04.0-moz_diff_.png",
+                "diffPercent": "0.34%",
+                "bytes": 68379,
+                "bytesSavedPercent": "89.78%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/Screenshot_Combat_04.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/Screenshot_Combat_04.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/Screenshot_Combat_04.0-quant_diff_.png",
+                "diffPercent": "1.19%",
+                "bytes": 123634,
+                "bytesSavedPercent": "81.52%"
+            }
+        }
+    },
+    "BC_Portrait_MonikaFinal.0.png": {
+        "src": {
+            "path": "./public/source_images/BC_Portrait_MonikaFinal.0.png",
+            "type": "png",
+            "transparent": "0.976471",
+            "bytes": 647058
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/BC_Portrait_MonikaFinal.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/BC_Portrait_MonikaFinal.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/BC_Portrait_MonikaFinal.0.j2k",
+                "pngPath": "./public/optimized/j2k/BC_Portrait_MonikaFinal.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/BC_Portrait_MonikaFinal.0_diff_.png",
+                "diffPercent": "0.24%",
+                "bytes": 89215,
+                "bytesSavedPercent": "86.21%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/BC_Portrait_MonikaFinal.0.webp",
+                "pngPath": "./public/optimized/webp/BC_Portrait_MonikaFinal.0_webp_.png",
+                "diffPath": "./public/optimized/webp/BC_Portrait_MonikaFinal.0_diff_.png",
+                "diffPercent": "0.16%",
+                "bytes": 101560,
+                "bytesSavedPercent": "84.30%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/BC_Portrait_MonikaFinal.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/BC_Portrait_MonikaFinal.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/BC_Portrait_MonikaFinal.0-moz_diff_.png",
+                "diffPercent": "60.91%",
+                "bytes": 71649,
+                "bytesSavedPercent": "88.93%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/BC_Portrait_MonikaFinal.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/BC_Portrait_MonikaFinal.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/BC_Portrait_MonikaFinal.0-quant_diff_.png",
+                "diffPercent": "0.27%",
+                "bytes": 114840,
+                "bytesSavedPercent": "82.25%"
+            }
+        }
+    },
+    "BC_Splash_Lines_CleanSmall.0.jpg": {
+        "src": {
+            "path": "./public/source_images/BC_Splash_Lines_CleanSmall.0.jpg",
+            "type": "jpg",
+            "transparent": "0",
+            "bytes": 410180
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/BC_Splash_Lines_CleanSmall.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/BC_Splash_Lines_CleanSmall.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/BC_Splash_Lines_CleanSmall.0.j2k",
+                "pngPath": "./public/optimized/j2k/BC_Splash_Lines_CleanSmall.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/BC_Splash_Lines_CleanSmall.0_diff_.png",
+                "diffPercent": "0.05%",
+                "bytes": 191521,
+                "bytesSavedPercent": "53.31%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/BC_Splash_Lines_CleanSmall.0.webp",
+                "pngPath": "./public/optimized/webp/BC_Splash_Lines_CleanSmall.0_webp_.png",
+                "diffPath": "./public/optimized/webp/BC_Splash_Lines_CleanSmall.0_diff_.png",
+                "diffPercent": "0.06%",
+                "bytes": 139866,
+                "bytesSavedPercent": "65.90%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/BC_Splash_Lines_CleanSmall.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/BC_Splash_Lines_CleanSmall.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/BC_Splash_Lines_CleanSmall.0-moz_diff_.png",
+                "diffPercent": "0.14%",
+                "bytes": 161584,
+                "bytesSavedPercent": "60.61%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/BC_Splash_Lines_CleanSmall.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/BC_Splash_Lines_CleanSmall.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/BC_Splash_Lines_CleanSmall.0-quant_diff_.png",
+                "diffPercent": "0.02%",
+                "bytes": 216529,
+                "bytesSavedPercent": "47.21%"
+            }
+        }
+    },
+    "splash_art.0.png": {
+        "src": {
+            "path": "./public/source_images/splash_art.0.png",
+            "type": "png",
+            "transparent": "0",
+            "bytes": 732883
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/splash_art.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/splash_art.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/splash_art.0.j2k",
+                "pngPath": "./public/optimized/j2k/splash_art.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/splash_art.0_diff_.png",
+                "diffPercent": "1.12%",
+                "bytes": 109577,
+                "bytesSavedPercent": "85.05%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/splash_art.0.webp",
+                "pngPath": "./public/optimized/webp/splash_art.0_webp_.png",
+                "diffPath": "./public/optimized/webp/splash_art.0_diff_.png",
+                "diffPercent": "1.02%",
+                "bytes": 40428,
+                "bytesSavedPercent": "94.48%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/splash_art.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/splash_art.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/splash_art.0-moz_diff_.png",
+                "diffPercent": "2.37%",
+                "bytes": 59500,
+                "bytesSavedPercent": "91.88%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/splash_art.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/splash_art.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/splash_art.0-quant_diff_.png",
+                "diffPercent": "0.69%",
+                "bytes": 138300,
+                "bytesSavedPercent": "81.13%"
+            }
+        }
+    },
+    "Darksiders_poster.0.jpg": {
+        "src": {
+            "path": "./public/source_images/Darksiders_poster.0.jpg",
+            "type": "jpg",
+            "transparent": "0",
+            "bytes": 778372
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/Darksiders_poster.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/Darksiders_poster.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/Darksiders_poster.0.j2k",
+                "pngPath": "./public/optimized/j2k/Darksiders_poster.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/Darksiders_poster.0_diff_.png",
+                "diffPercent": "1.13%",
+                "bytes": 116478,
+                "bytesSavedPercent": "85.04%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/Darksiders_poster.0.webp",
+                "pngPath": "./public/optimized/webp/Darksiders_poster.0_webp_.png",
+                "diffPath": "./public/optimized/webp/Darksiders_poster.0_diff_.png",
+                "diffPercent": "1.14%",
+                "bytes": 57440,
+                "bytesSavedPercent": "92.62%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/Darksiders_poster.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/Darksiders_poster.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/Darksiders_poster.0-moz_diff_.png",
+                "diffPercent": "1.05%",
+                "bytes": 82314,
+                "bytesSavedPercent": "89.42%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/Darksiders_poster.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/Darksiders_poster.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/Darksiders_poster.0-quant_diff_.png",
+                "diffPercent": "0.75%",
+                "bytes": 222628,
+                "bytesSavedPercent": "71.40%"
+            }
+        }
+    },
+    "Joe_M.0.jpg": {
+        "src": {
+            "path": "./public/source_images/Joe_M.0.jpg",
+            "type": "jpg",
+            "transparent": "0",
+            "bytes": 760111
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/Joe_M.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/Joe_M.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/Joe_M.0.j2k",
+                "pngPath": "./public/optimized/j2k/Joe_M.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/Joe_M.0_diff_.png",
+                "diffPercent": "1.17%",
+                "bytes": 108435,
+                "bytesSavedPercent": "85.73%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/Joe_M.0.webp",
+                "pngPath": "./public/optimized/webp/Joe_M.0_webp_.png",
+                "diffPath": "./public/optimized/webp/Joe_M.0_diff_.png",
+                "diffPercent": "1.31%",
+                "bytes": 59244,
+                "bytesSavedPercent": "92.21%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/Joe_M.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/Joe_M.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/Joe_M.0-moz_diff_.png",
+                "diffPercent": "1.11%",
+                "bytes": 89032,
+                "bytesSavedPercent": "88.29%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/Joe_M.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/Joe_M.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/Joe_M.0-quant_diff_.png",
+                "diffPercent": "0.66%",
+                "bytes": 223725,
+                "bytesSavedPercent": "70.57%"
+            }
+        }
+    },
+    "BC_Portrait_Gully_Final.0.png": {
+        "src": {
+            "path": "./public/source_images/BC_Portrait_Gully_Final.0.png",
+            "type": "png",
+            "transparent": "1",
+            "bytes": 739755
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/BC_Portrait_Gully_Final.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/BC_Portrait_Gully_Final.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/BC_Portrait_Gully_Final.0.j2k",
+                "pngPath": "./public/optimized/j2k/BC_Portrait_Gully_Final.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/BC_Portrait_Gully_Final.0_diff_.png",
+                "diffPercent": "0.20%",
+                "bytes": 125150,
+                "bytesSavedPercent": "83.08%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/BC_Portrait_Gully_Final.0.webp",
+                "pngPath": "./public/optimized/webp/BC_Portrait_Gully_Final.0_webp_.png",
+                "diffPath": "./public/optimized/webp/BC_Portrait_Gully_Final.0_diff_.png",
+                "diffPercent": "0.15%",
+                "bytes": 122184,
+                "bytesSavedPercent": "83.48%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/BC_Portrait_Gully_Final.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/BC_Portrait_Gully_Final.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/BC_Portrait_Gully_Final.0-moz_diff_.png",
+                "diffPercent": "53.27%",
+                "bytes": 85624,
+                "bytesSavedPercent": "88.43%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/BC_Portrait_Gully_Final.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/BC_Portrait_Gully_Final.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/BC_Portrait_Gully_Final.0-quant_diff_.png",
+                "diffPercent": "0.26%",
+                "bytes": 144800,
+                "bytesSavedPercent": "80.43%"
+            }
+        }
+    },
+    "Ryan_S.0.jpg": {
+        "src": {
+            "path": "./public/source_images/Ryan_S.0.jpg",
+            "type": "jpg",
+            "transparent": "0",
+            "bytes": 716572
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/Ryan_S.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/Ryan_S.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/Ryan_S.0.j2k",
+                "pngPath": "./public/optimized/j2k/Ryan_S.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/Ryan_S.0_diff_.png",
+                "diffPercent": "1.81%",
+                "bytes": 55858,
+                "bytesSavedPercent": "92.20%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/Ryan_S.0.webp",
+                "pngPath": "./public/optimized/webp/Ryan_S.0_webp_.png",
+                "diffPath": "./public/optimized/webp/Ryan_S.0_diff_.png",
+                "diffPercent": "1.85%",
+                "bytes": 37994,
+                "bytesSavedPercent": "94.70%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/Ryan_S.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/Ryan_S.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/Ryan_S.0-moz_diff_.png",
+                "diffPercent": "1.65%",
+                "bytes": 62520,
+                "bytesSavedPercent": "91.28%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/Ryan_S.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/Ryan_S.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/Ryan_S.0-quant_diff_.png",
+                "diffPercent": "0.67%",
+                "bytes": 235783,
+                "bytesSavedPercent": "67.10%"
+            }
+        }
+    },
+    "airship_syndicate_023.0.jpg": {
+        "src": {
+            "path": "./public/source_images/airship_syndicate_023.0.jpg",
+            "type": "jpg",
+            "transparent": "0",
+            "bytes": 632100
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/airship_syndicate_023.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/airship_syndicate_023.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/airship_syndicate_023.0.j2k",
+                "pngPath": "./public/optimized/j2k/airship_syndicate_023.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/airship_syndicate_023.0_diff_.png",
+                "diffPercent": "1.51%",
+                "bytes": 92357,
+                "bytesSavedPercent": "85.39%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/airship_syndicate_023.0.webp",
+                "pngPath": "./public/optimized/webp/airship_syndicate_023.0_webp_.png",
+                "diffPath": "./public/optimized/webp/airship_syndicate_023.0_diff_.png",
+                "diffPercent": "1.42%",
+                "bytes": 47662,
+                "bytesSavedPercent": "92.46%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/airship_syndicate_023.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/airship_syndicate_023.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/airship_syndicate_023.0-moz_diff_.png",
+                "diffPercent": "1.34%",
+                "bytes": 64332,
+                "bytesSavedPercent": "89.82%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/airship_syndicate_023.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/airship_syndicate_023.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/airship_syndicate_023.0-quant_diff_.png",
+                "diffPercent": "0.60%",
+                "bytes": 185133,
+                "bytesSavedPercent": "70.71%"
+            }
+        }
+    },
+    "Screenshot_Combat_03.0.png": {
+        "src": {
+            "path": "./public/source_images/Screenshot_Combat_03.0.png",
+            "type": "png",
+            "transparent": "0",
+            "bytes": 839029
+        },
+        "intermediaries": {
+            "ppm": {
+                "path": "./public/intermediaries/ppm/Screenshot_Combat_03.0.ppm",
+                "ext": "ppm",
+                "variant": ""
+            },
+            "png": {
+                "path": "./public/intermediaries/png/Screenshot_Combat_03.0.png",
+                "ext": "png",
+                "variant": ""
+            }
+        },
+        "optimized": {
+            "j2k": {
+                "ext": "j2k",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/j2k/Screenshot_Combat_03.0.j2k",
+                "pngPath": "./public/optimized/j2k/Screenshot_Combat_03.0_j2k_.png",
+                "diffPath": "./public/optimized/j2k/Screenshot_Combat_03.0_diff_.png",
+                "diffPercent": "0.21%",
+                "bytes": 178624,
+                "bytesSavedPercent": "78.71%"
+            },
+            "webp": {
+                "ext": "webp",
+                "convertFrom": "png",
+                "variant": "",
+                "path": "./public/optimized/webp/Screenshot_Combat_03.0.webp",
+                "pngPath": "./public/optimized/webp/Screenshot_Combat_03.0_webp_.png",
+                "diffPath": "./public/optimized/webp/Screenshot_Combat_03.0_diff_.png",
+                "diffPercent": "0.42%",
+                "bytes": 79770,
+                "bytesSavedPercent": "90.49%"
+            },
+            "mozjpeg": {
+                "ext": "jpg",
+                "convertFrom": "ppm",
+                "variant": "-moz",
+                "path": "./public/optimized/mozjpeg/Screenshot_Combat_03.0-moz.jpg",
+                "pngPath": "./public/optimized/mozjpeg/Screenshot_Combat_03.0-moz_jpg_.png",
+                "diffPath": "./public/optimized/mozjpeg/Screenshot_Combat_03.0-moz_diff_.png",
+                "diffPercent": "0.36%",
+                "bytes": 94422,
+                "bytesSavedPercent": "88.75%"
+            },
+            "pngquant": {
+                "ext": "png",
+                "convertFrom": "png",
+                "variant": "-quant",
+                "path": "./public/optimized/pngquant/Screenshot_Combat_03.0-quant.png",
+                "pngPath": "./public/optimized/pngquant/Screenshot_Combat_03.0-quant_png_.png",
+                "diffPath": "./public/optimized/pngquant/Screenshot_Combat_03.0-quant_diff_.png",
+                "diffPercent": "0.86%",
+                "bytes": 209387,
+                "bytesSavedPercent": "75.04%"
+            }
+        }
+    }
+}
