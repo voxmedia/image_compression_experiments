@@ -1,94 +1,72 @@
-The goal here is to explore whether jp2 aka jpeg 2000 aka j2k, is the best format to serve to our users.
-We will also explore lossy PNG compression and jpegtran.
+Overview
+========
+The goal here is to compare various different image formats, starting with a source format like png or jpg and encoding to webp/j2k/etc.
 
-
-I will evaluating
+Tracked Metrics
   - Visual quality comparison (anecdotal and algorithmicially quantifyable)
   - File size
 
 
-Test set should include images with
-  - alpha channels
-  - gradients
-  - fine lines (svg like)
-  - high deteail (photograph composition, photoshop inhanced for instance)
-  - particles (smoke, dust, etc)
-  - noise (rgb / monochrome)
-  - high / medium / low resolution of same image
+
+Who is this for?
+================
+Anyone conducting image compression experiments that wants to compare results. The code here is very not-DRY but easy to hack on.
+
+
+How it works
+============
+The script will iterate over any number of source images and re-encode each image to all target formats.
+The resulting images will be analyzed for the difference in both byte size and visual similarity, from source to target.
+All results can be reviewed via a simple node server/app.
+
+
+Current formats and optimizers
+==============================
+- format: webp
+- format: jpeg2000
+- optimizer: mozjpeg
+- optimizer: pngquant2
 
 
 Dependencies
 =================
-- imagemagick:          brew install imagemagick
+- imagemagick cli:      brew install imagemagick
 - mozjpeg cli (cjpeg):  brew install mozjpeg
-- pngquant 2 cli:       brew install pngquant
+- pngquant2 cli:        brew install pngquant
+- dssim cli:            https://github.com/pornel/dssim
 
 
-Research
-=========
-- Available encoders:
-  - openjpeg (the standard):
-    - https://github.com/uclouvain/openjpeg
-    - http://braumeister.org/formula/openjpeg
-  - ImageMagick
-    - http://www.imagemagick.org/script/jp2.php
+Run an experiment
+=================
+- Install the above CLI dependencies
+- npm install
+- dump some images into the `public/source_images` directory
+- run `node index.js` (Wait ... for a long time)
+- view results `node server.js` > localhost:4000
 
 
+Optional
+========
+Modify `config/config.js` to adjust compression settings & re-run
 
-v0.1 Results
-============
-Initial results seem to indicate that j2k:
-  - maintains visual similarity very well.
-  - sometimes saves on file size
-  - sometimes adds greatly to file size
-  - is crazy
+* Note: running `node index.js` will `rm` all previous results.
 
 
+Disk space
+==========
+It will use a lot. Be prepared.
 
-
-To do's:
-==========================
-- Investigate
-  - am I using the j2k encoder properly?          Roughly, yes
-  - should I try a different library?             yes
-  - should we compare pngquantized?               maybe
-  - should we compare advanced jpeg minimizers?   definitely
-
-- Look into mozjpeg
-
-- Look into jpegrescan and jpegtran
-  - are we already using one of them?
-  - are they awesome?
-
-- Look into pngquant & pngquant2
+Hosting
+=======
+It will run on Heroku if you can compile the slug into less than 300MB.
+I have run tests on 10k images and the resulting disk space was in the hundreds of gigabytes.
+That said, you could mogrify all source images before running `index.js` with something like `mogrify -resize 1024x1024 *.png` for instance which will help to keep disk usage down dramatically if you have source images which are thousands of pixels wide/high. And obviously, a very small example data set could be hosted. Otherwise, you need something with a lot of disk space.
 
 
 Notes
 ============================
-
-dssim
-
-1.5% dssim or lower is ideal, matches my anecdotal observations so :solid:
-
-https://github.com/pornel/dssim
-https://github.com/technopagan/cjpeg-dssim
-https://github.com/technopagan/*
-
-
-jpeg XT
-  - backwards compatible
-  - full alpha! / not just boolean
-
-
-LQIP / facebook fuzzy images - possibly cool
-
-
-Interesting:
-  - https://github.com/rflynn/imgmin
-
-
-// j2k quality notes
-// 45: starts to loose sharpness in vector like bitmaps, but still has negative compression savings
-// 37: insanve artifacts in a few images, terrible
-// 41: very nearly goldilocks zone
+j2k quality (anecdotal)
+  45: starts to loose sharpness in vector like bitmaps, but still has negative compression savings
+  37: insanve artifacts in a few images, terrible
+  41: very nearly goldilocks zone
 
