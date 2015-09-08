@@ -58,7 +58,7 @@ app.get('/', function (req, res) {
   var simpleResults = _.take(_.map(results), 20);
 
   res.render('index', {
-    results: resultsSorted, // OR simpleResults
+    results: _.unique(resultsSorted), // OR simpleResults
     summary: summary,
     summaryReal: summaryReal
   })
@@ -86,7 +86,7 @@ app.get('/worst_diff', function (req, res) {
   var simpleResults = _.take(_.map(results), 20);
 
   res.render('index', {
-    results: resultsSorted, // OR simpleResults
+    results: _.unique(resultsSorted), // OR simpleResults
     summary: summary,
     summaryReal: summaryReal
   })
@@ -114,7 +114,7 @@ app.get('/best_diff', function (req, res) {
   var simpleResults = _.take(_.map(results), 20);
 
   res.render('index', {
-    results: resultsSorted, // OR simpleResults
+    results: _.unique(resultsSorted), // OR simpleResults
     summary: summary,
     summaryReal: summaryReal
   })
@@ -142,7 +142,7 @@ app.get('/worst_bytes', function (req, res) {
   var simpleResults = _.take(_.map(results), 20);
 
   res.render('index', {
-    results: resultsSorted, // OR simpleResults
+    results: _.unique(resultsSorted), // OR simpleResults
     summary: summary,
     summaryReal: summaryReal
   })
@@ -170,7 +170,7 @@ app.get('/best_bytes', function (req, res) {
   var simpleResults = _.take(_.map(results), 20);
 
   res.render('index', {
-    results: resultsSorted, // OR simpleResults
+    results: _.unique(resultsSorted), // OR simpleResults
     summary: summary,
     summaryReal: summaryReal
   })
@@ -180,7 +180,7 @@ app.get('/sample', function (req, res) {
   var summary = getSummary(results);
   var summaryReal = getSummary(results, true);
   res.render('index', {
-    results: _.sample(_.map(results), 4),
+    results: _.unique(_.sample(_.map(results), 4)),
     summary: summary,
     summaryReal: summaryReal
   })

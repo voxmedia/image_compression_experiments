@@ -54,8 +54,6 @@ _.each(sourceImages, function(sourceImage){
   iteration += 1;
 });
 
-console.log(imageStats)
-
 
 // // convert all the images, to intermediary format
 _.forEach(imageStats, function(imageStat, originalName) {
