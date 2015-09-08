@@ -9,6 +9,7 @@ Tracked Metrics
 Demo
 ====
 https://limitless-sands-3072.herokuapp.com/
+![alt tag](http://i.imgur.com/WsX0ixi.png)
 
 Who is this for?
 ================
