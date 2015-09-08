@@ -18,6 +18,7 @@ How it works
 The script will iterate over any number of source images and re-encode each image to all target formats.
 The resulting images will be analyzed for the difference in both byte size and visual similarity, from source to target.
 All results can be reviewed via a simple node server/app.
+For brower compatibility, all images are display in png format in the browser.
 
 
 Current formats and optimizers
