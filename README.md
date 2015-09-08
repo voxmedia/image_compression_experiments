@@ -85,3 +85,7 @@ j2k quality (anecdotal)
   37: insanve artifacts in a few images, terrible
   41: very nearly goldilocks zone
 
+
+Authors
+=======
+Jason Ormand https://github.com/okor | https://twitter.com/okor
