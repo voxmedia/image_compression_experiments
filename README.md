@@ -10,7 +10,7 @@ Tracked Metrics
 
 Who is this for?
 ================
-Anyone conducting image compression experiments that wants to compare results. The code here is very not-DRY but easy to hack on.
+Anyone conducting image compression experiments that wants to compare results. The code here is very super but easy to hack on.
 
 
 How it works
