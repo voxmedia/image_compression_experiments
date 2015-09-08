@@ -57,6 +57,20 @@ Disk space
 ==========
 It will use a lot. Be prepared.
 
+
+Limitations
+===========
+All data is stored in memory then dumped into a json file. Then the json is loaded by the server. If you are conducing an experiment on a bunch of images, you'll probably need to modify the code to use a database of some kind.
+
+
+Error handling
+==============
+There is none. This is a dumb script. If this were a more proper thing it would have
+- a database
+- worker queue of some kind
+- probably use s3 as storage
+
+
 Hosting
 =======
 It will run on Heroku if you can compile the slug into less than 300MB.
