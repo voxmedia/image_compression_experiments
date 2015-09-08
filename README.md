@@ -6,7 +6,9 @@ Tracked Metrics
   - Visual quality comparison (anecdotal and algorithmicially quantifyable)
   - File size
 
-
+Demo
+====
+https://limitless-sands-3072.herokuapp.com/
 
 Who is this for?
 ================
