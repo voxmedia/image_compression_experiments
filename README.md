@@ -3,8 +3,12 @@ Overview
 The goal here is to compare various different image formats, starting with a source format like png or jpg and encoding to webp/j2k/etc.
 
 Tracked Metrics
-  - Visual quality comparison (anecdotal and algorithmicially quantifyable)
+  - Visual quality comparison (algorithmicially quantifyable and anecdotal via UI)
   - File size
+  
+In it's current form, it's not a good example for evaluating a particular codec's compression performance. But it will give you an idea of what sort of performance you will see given the fixed, arbitrary quality setting for each codec/optimizer from your image sample. This may be helpful if you are trying to tune you image compression quality settings.
+
+Any later revisions to this project will attempt to reduce the number of metrics being compared and more precisely control source image quality, so the resulting data will be more meaningful.
 
 Demo
 ====
@@ -13,7 +17,7 @@ https://limitless-sands-3072.herokuapp.com/
 
 Who is this for?
 ================
-Anyone conducting image compression experiments that wants to compare results. The code here is very super but easy to hack on.
+Anyone conducting image compression experiments that wants to compare compression results given a fixed quality scheme. The code here is not super but easy to hack on.
 
 
 How it works
